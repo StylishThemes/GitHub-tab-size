@@ -1,3 +1,3 @@
-# GitHub-code-wrap [![tag](https://img.shields.io/github/tag/StylishThemes/GitHub-code-wrap.svg)](https://github.com/StylishThemes/GitHub-code-wrap/tags)
+# GitHub-tab-size [![tag](https://img.shields.io/github/tag/StylishThemes/GitHub-tab-size.svg)](https://github.com/StylishThemes/GitHub-tab-size/tags)
 
-Userstyle to wrap long code lines on GitHub.
+Userstyle to set a custom tab-size on GitHub and Gist.
