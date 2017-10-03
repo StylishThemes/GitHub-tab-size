@@ -1,0 +1,6 @@
+@-moz-document domain("github.com"), domain("gist.github.com") {
+  pre, .highlight, .diff-table, .tab-size {
+         tab-size: 2 !important;
+    -moz-tab-size: 2 !important;
+  }
+}
