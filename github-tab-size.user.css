@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name        GitHub Tab Size
+@version     v1.0.1
+@description Userstyle to set tab sizes on GitHub
+@namespace   github.com/StylishThemes
+@author      StylishThemes <https://github.com/StylishThemes>
+@homepageURL https://github.com/StylishThemes/GitHub-Selected-Tab-Color
+@supportURL  https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues
+@license     CC-BY-SA-4.0
+@var         text tab-size 'Tab Size' 2
+@preprocessor stylus
+==/UserStyle== */
+@-moz-document domain("github.com"), domain("gist.github.com") {
+  pre, .highlight, .diff-table, .tab-size {
+         tab-size: tab-size !important;
+    -moz-tab-size: tab-size !important;
+  }
+}
