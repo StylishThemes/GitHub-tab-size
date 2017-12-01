@@ -1,7 +1,7 @@
 {
-  "name": "github-code-wrap",
-  "version": "1.0.4",
-  "description": "Userstyle to wrap code long lines on GitHub",
-  "repository": "StylishThemes/GitHub-code-wrap",
+  "name": "github-tab-size",
+  "version": "1.0.1",
+  "description": "Userstyle to set tab sizes on GitHub",
+  "repository": "StylishThemes/GitHub-tab-size",
   "license": "CC-BY-SA-4.0"
 }
