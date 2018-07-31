@@ -4,7 +4,7 @@ Userstyle to set a custom tab-size on GitHub and Gist.
 
 ## Install
 
-- [Install directly](https://raw.githubusercontent.com/StylishThemes/GitHub-FixedHeader/master/github-tab-size.user.css) from this repository by opening the [`user.css`](https://github.com/openstyles/stylus/wiki/Usercss) file (available using Stylus or FreeStyler).
+- [Install directly](https://github.com/StylishThemes/GitHub-tab-size/raw/master/github-tab-size.user.css) from this repository by opening the [`user.css`](https://github.com/openstyles/stylus/wiki/Usercss) file (available using Stylus or FreeStyler).
 - If you're using Stylish, or want to install this style manually, create a new style and paste the css from the [github-tab-size.css](https://github.com/StylishThemes/GitHub-tab-size/blob/master/github-tab-size.css) file into it.
 
 ## Plugins
