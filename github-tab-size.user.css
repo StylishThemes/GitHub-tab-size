@@ -4,8 +4,8 @@
 @description  Userstyle to set tab sizes on GitHub
 @namespace    github.com/StylishThemes
 @author       StylishThemes <https://github.com/StylishThemes>
-@homepageURL  https://github.com/StylishThemes/GitHub-Selected-Tab-Color
-@supportURL   https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues
+@homepageURL  https://github.com/StylishThemes/GitHub-tab-size
+@supportURL   https://github.com/StylishThemes/GitHub-tab-size/issues
 @license      CC-BY-SA-4.0
 @advanced     text tab-size "Tab Size" 2
 @preprocessor stylus
