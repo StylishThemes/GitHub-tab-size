@@ -11,25 +11,23 @@
     "node": ">=10"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-config-silverwind": "^2.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-silverwind": "^5.1.2",
     "perfectionist": "^2.4.0",
-    "semver": "^5.5.0",
-    "stylelint": "^9.4.0",
-    "stylelint-config-standard": "^18.2.0",
-    "updates": "^4.1.2"
+    "semver": "^7.1.1",
+    "stylelint": "^13.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "updates": "^9.3.3"
   },
   "scripts": {
     "authors": "bash tools/authors",
     "clean": "npm run perfectionist && node tools/fix-perfectionist.js",
-    "eslint": "eslint --quiet --color tools/*.js",
-    "lint": "npm run eslint && npm run stylelint",
-    "major": "node tools/bump-version.js major && git add . && npm version -f major",
-    "minor": "node tools/bump-version.js minor && git add . && npm version -f minor",
-    "patch": "node tools/bump-version.js patch && git add . && npm version -f patch",
+    "lint": "eslint . && stylelint *.css",
+    "major": "npm run lint && npm run clean && versions -p -d -C major *.css",
+    "minor": "npm run lint && npm run clean && versions -p -d -C minor *.css",
+    "patch": "npm run lint && npm run clean && versions -p -d -C patch *.css",
     "perfectionist": "perfectionist github-tab-size.user.css github-tab-size.user.css --indentSize 2 --maxAtRuleLength 250",
-    "stylelint": "stylelint --color -- github-tab-size.user.css",
-    "test": "npm run eslint && npm run stylelint",
+    "test": "npm run lint",
     "update": "updates -cu && npm install"
   }
 }

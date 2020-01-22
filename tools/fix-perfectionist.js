@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const fs = require("fs").promises;
+const {readFile, writeFile} = require("fs").promises;
 const path = require("path");
 const pkg = require("../package.json");
 
@@ -17,9 +17,9 @@ function cleanup(css) {
 }
 
 async function postPerfectionist() {
-  const css = await fs.readFile(fileName, "utf8");
-  await fs.writeFile(fileName, cleanup(css));
-  console.log("\x1b[32m%s\x1b[0m", `${pkg.title} usercss cleanup completed`);
+  const css = await readFile(fileName, "utf8");
+  await writeFile(fileName, cleanup(css));
+  console.info("\x1b[32m%s\x1b[0m", `${pkg.title} usercss cleanup completed`);
 }
 
 postPerfectionist();
